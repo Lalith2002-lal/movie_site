@@ -1,0 +1,28 @@
+.header{
+    margin: 0 2.5rem;
+    padding: .5 rem 0;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    
+}
+.header_icon{
+    width: 150px;
+}
+.headerLeft, .headerRight {
+    display: flex;
+    align-items: center;
+}
+a > span{
+    margin: 0 30px;
+    font-size: 40px;
+    cursor: pointer;
+    color: #fff;
+}
+a > span:hover{
+    color: gold;
+}
+.user_avatar{
+    font-size: 2rem;
+}
